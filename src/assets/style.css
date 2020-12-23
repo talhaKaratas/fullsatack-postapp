@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+}
+
+/* ENTERCARD */
+
+.enter__card {
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+  width: fit-content;
+  margin-top: -150px;
+}
+
+.enterCard__title {
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+}
+
+.enterCard__body {
+  padding: 30px 20px;
+}
+
+.enter__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enter__form .from__group {
+  margin-bottom: 20px;
+}
+
+.enter__form .from__group label {
+  display: inline-block;
+  width: 60px;
+  /* text-align: right; */
+  margin-right: 5px;
+}
+
+.enter__form .from__group input {
+  width: 400px;
+  height: 30px;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-primary {
+  border: 2px solid blue;
+  background: none;
+  color: blue;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: blue;
+  color: #fff;
+}
+
+.btn-success {
+  border: 2px solid green;
+  background: none;
+  color: green;
+  transition: 0.3s;
+}
+
+.btn-success:hover {
+  background: green;
+  color: #fff;
+}
+
+.enterCard__footer {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.enterCard__footer strong {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.enterCard__footer strong:hover {
+  color: blue;
+}
+
+.error__message {
+  color: red;
+  margin-bottom: 20px;
+}
+
+/* ENTERCARD */
+
+/* REGISTER */
+
+.register {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* REGISTER */
+
+/* LOGIN */
+
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LOGIN */
+
+/* HEADER */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  height: 60px;
+  background: #0085ad;
+  color: #fff;
+}
+
+.headerNav__item {
+  display: inline-block;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.active {
+  color: #f47721;
+}
+
+.header__right strong {
+  cursor: pointer;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__right h3 {
+  margin-right: 40px;
+}
+
+/* HEADER */
+
+/* POST */
+
+.post__container {
+  margin-top: 60px;
+}
+
+.post {
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 0 20px;
+}
+
+.post__content {
+  padding: 20px 20px;
+}
+
+/* POST */
+
+/* WRITEPOST */
+
+.write__post {
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  margin: 20px auto 0 auto;
+}
+
+.writePost__header {
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.writePost__content {
+  padding: 10px 20px;
+  background-color: #8db9ca;
+}
+
+.writePost__content textarea {
+  width: 100%;
+  height: 60px;
+  resize: none;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.writePost__footer {
+  text-align: right;
+  padding: 10px 20px;
+}
+
+.btn-post {
+  background-color: blue;
+  color: #fff;
+  border: 1px solid blue;
+}
+
+/* WRITEPOST */
